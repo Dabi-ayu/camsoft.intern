@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.clear{
+    padding: 5px;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    border-radius: 8px;
+    box-shadow: 1.0px 1.9px 1.9px hsl(0deg 0% 0% / 0.47);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.stop-webcam-btn {
+    padding: 8px;
+    margin: 6px;
+    background-color:red;
+    color: white;
+    border-color: red;
+    border-radius: 8px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.start-webcam-btn {
+    padding: 8px;
+    margin: 6px;
+    background-color:blue;
+    color: white;
+    border-color: blue;
+    border-radius: 8px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.capture-photo{
+    padding: 5px;
+    margin: 5px;
+    background-color:blue;
+    color: white;
+    border-color: blue;
+    border-radius: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.video-frame{
+    border: 2px solid red;
+    border-radius: 4px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+    border-radius: 70px;
+    border: 4px solid purple;
 }
